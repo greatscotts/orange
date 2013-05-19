@@ -60,15 +60,25 @@ font-size: 1.6em;
 
 
   #youtube_zone {
-  width: 900px;
+  width: 950px;
+  height: 620px;
+  margin: 0 auto;
+  padding-left: 1px;
+  padding-top: 76px;
+  background-image: url("sa.png");
+  background-repeat: no-repeat;
+}
+
+
+ #lala {
+  width: 1400px;
   height: 650px;
   margin: 0 auto;
   padding-left: 1px;
   padding-top: 76px;
-  background-image: url("aaa.png");
+ background-image: url("http://i43.tinypic.com/4l3jaw.png");
   background-repeat: no-repeat;
 }
-
 
 #myModal 
 {
@@ -171,7 +181,6 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
-  text-align: center;
 }
 
 h2 {
@@ -180,6 +189,14 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-width: normal;
+  color: $grayLight;
+}
+
+h4 {
+  font-size: 1.5 em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+    font-width: normal;
   color: $grayLight;
 }
 
@@ -207,7 +224,7 @@ p {
   }
 }
 #text{
-  color: black;
+  color: white;
   font-size: 1.4em;
   
 
