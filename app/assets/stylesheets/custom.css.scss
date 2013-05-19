@@ -53,15 +53,29 @@ font-size: 1.6em;
       margin-left: 100px;
  
   }
+.button {
+  background-image: url(http://i49.tinypic.com/r05ulx.png);
+  cursor:pointer;
+  }
 
- 
+
+  #youtube_zone {
+  width: 900px;
+  height: 650px;
+  margin: 0 auto;
+  padding-left: 1px;
+  padding-top: 76px;
+  background-image: url("aaa.png");
+  background-repeat: no-repeat;
+}
+
 
 #myModal 
 {
     width: 750px; 
     margin-top: -300px !important;
     margin-left:  -350px !important; 
-
+    
 } 
 
 #myModal .modal-body {
